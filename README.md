@@ -1,9 +1,9 @@
 # Car Repair App.......
 
-This project was bootstrapped with [Live Site link](https://gracious-lamarr-e68489.netlify.app/).
+If you want to see my live site  [Live Site link](https://gracious-lamarr-e68489.netlify.app/).
 
 
-If you what to see my code [Code Link](https://github.com/Asadullah-Hil-Galib/car-repair-website).
+If you want to see my code [Code Link](https://github.com/Asadullah-Hil-Galib/car-repair-website).
 
 
 If you want to be a followers my github[Git hub link](https://github.com/Asadullah-Hil-Galib).
