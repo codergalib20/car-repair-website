@@ -11,10 +11,11 @@ const Services = () => {
     const servicesPage = {
         padding : '80px 0'
     }
+    
     return (
         <div style={servicesPage}>
             <Container>
-                <Row xs={1} md={2} lg={3} className="g-4 align-items-stretch">
+                <Row xs={1} md={2} lg={3} className="mt-3 g-4 align-items-stretch">
                     {Array.from({ length: 4 }).map((_, idx) => (
                         
                             services.map(service => <Service key={service.id} service={service}></Service>)

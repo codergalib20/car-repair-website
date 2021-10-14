@@ -18,7 +18,7 @@ const Slider = () => {
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item interval={500}>
+                <Carousel.Item interval={1000}>
                     <img
                     className="d-block w-100"
                     src="https://i.ibb.co/XCj9XXc/slider2.jpg"
@@ -31,7 +31,7 @@ const Slider = () => {
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={1000}>
                     <img  
                     className="d-block w-100"
                     src="https://i.ibb.co/y04k1ht/slider3.jpg"

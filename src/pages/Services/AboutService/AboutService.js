@@ -6,8 +6,8 @@ const aboutServiceStyle = {
 const AboutService = () => {
     const { aboutServicesId } = useParams()
     return (
-        <div style={aboutServiceStyle}>
-            This is single service{aboutServicesId}
+        <div className="py-5 mt-5" style={aboutServiceStyle}>
+            <h1 className="text-center">This is single service{aboutServicesId}</h1>
         </div>
     );
 };

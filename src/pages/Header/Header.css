@@ -5,3 +5,12 @@
     top: 0;
     left: 0;
 }
+button.navbar-toggler.collapsed {
+    outline: none !important;
+    border: none;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: unset;
+}

@@ -3,7 +3,6 @@ import { Card, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Service = (props) => {
-    console.log(props.service)
     const { img,id, name, para1, price } = props.service;
     const serviceCard = {
         borderTop: '10px solid red',
