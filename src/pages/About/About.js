@@ -1,11 +1,14 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import aboutImg from '../../img/about.jpg';
+const aboutImgStyle = {
+    maxWidth : '100%'
+}
 const About = () => {
     return (
         <div className="py-5 mt-5">
             <Container>
-                <Row sm={1}  lg={2} xl={2} className="align-items-center">
+                <Row xs={1} lg={2} xl={2} className="align-items-center">
                     <Col>
                         <h1 className="">Who we are?</h1>
                         <p className="py-2" style={{textAlign: 'justify'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptatum, nesciunt quo dicta rerum officiis, nemo consequuntur inventore reprehenderit excepturi earum natus molestiae possimus, rem repellat. Ducimus dolor aliquam ratione esse quisquam commodi eaque, tempora recusandae adipisci iusto temporibus nulla cumque facere quae. Doloribus magni amet eum reprehenderit ex! Porro!</p>
@@ -14,7 +17,7 @@ const About = () => {
                         <Button variant="outline-success">Reade more</Button>
                     </Col>
                     <Col className="mt-3 mt-lg-0">
-                        <img src={ aboutImg} alt="" />
+                        <img style={aboutImgStyle} className="img-fluid" src={ aboutImg} alt="" />
                     </Col>
                </Row>
             </Container>
